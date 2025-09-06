@@ -370,23 +370,43 @@
 </section>
 
 
-    <!-- FEATURED WORK: ONG SQUAD -->
-    <section id="ong-squad" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 relative">
-      <h2 class="text-3xl sm:text-4xl font-semibold mb-10 text-center">
-        <span class="magical-title">Featured Work: Ong Squad</span> 
-        <span class="subscriber-count text-lg font-normal ml-2">(17M Subscribers from TikTok/Instagram/YouTube)</span>
-      </h2>
-      
-      <!-- Two videos side-by-side with flex-wrap -->
-    <div class="flex flex-wrap md:flex-nowrap gap-4 justify-center items-center mb-20 max-w-6xl mx-auto">
-        <div class="w-full md:w-1/2">
-          <video autoplay muted loop playsinline class="featured-video" src="https://i6oxrkua619shpsu.public.blob.vercel-storage.com/ong-squad.mp4"></video>
-        </div>
-        <div class="w-full md:w-1/2">
-          <img src="https://i6oxrkua619shpsu.public.blob.vercel-storage.com/ong-squad_resized.jpeg" alt="Ong Squad preview" class="featured-video" />
-        </div>
+<!-- FEATURED WORK: ONG SQUAD -->
+<section id="ong-squad" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+  <h2 class="text-3xl sm:text-4xl font-semibold mb-10 text-center">
+    <span class="magical-title">Featured Work: Ong Squad</span>
+    <span class="subscriber-count text-lg font-normal ml-2">(17M Subscribers from TikTok/Instagram/YouTube)</span>
+  </h2>
+
+  <!-- Vertical reels: mobile = stacked, md+ = side-by-side -->
+  <div class="flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start justify-center">
+
+    <!-- Reel 1 (video) -->
+    <div class="w-full md:w-1/2 flex justify-center">
+      <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl"
+           style="aspect-ratio: 9 / 16; max-height: 80vh;">
+        <video
+          autoplay muted loop playsinline preload="metadata"
+          class="w-full h-full rounded-xl shadow-lg object-cover"
+          src="https://i6oxrkua619shpsu.public.blob.vercel-storage.com/ong-squad.mp4">
+        </video>
       </div>
-    </section>
+    </div>
+
+    <!-- Reel 2 (image placeholder) -->
+    <div class="w-full md:w-1/2 flex justify-center">
+      <div class="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl"
+           style="aspect-ratio: 9 / 16; max-height: 80vh;">
+        <img
+          src="https://i6oxrkua619shpsu.public.blob.vercel-storage.com/ong-squad_resized.jpeg"
+          alt="Ong Squad preview"
+          class="w-full h-full rounded-xl shadow-lg object-cover"
+          loading="lazy" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
     <!-- WHY US SECTION -->
     <section id="why-us" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 border-t border-b border-white/10">
