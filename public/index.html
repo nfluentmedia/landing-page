@@ -377,11 +377,14 @@
         <span class="subscriber-count text-lg font-normal ml-2">(17M Subscribers from TikTok/Instagram/YouTube)</span>
       </h2>
       
-      <!-- Three videos closely centered in the middle -->
-      <div class="flex gap-4 justify-center items-center mb-20 max-w-6xl mx-auto">
-        <video autoplay muted loop playsinline class="featured-video" src="ong-squad.mp4" poster="ong-squad.jpg"></video>
-        <video autoplay muted loop playsinline class="featured-video" src="Ong_Squad1.mp4" poster="ong-squad.jpg"></video>
-        <video autoplay muted loop playsinline class="featured-video" src="Ong_Squad2.mp4" poster="ong-squad.jpg"></video>
+      <!-- Two videos side-by-side with flex-wrap -->
+    <div class="flex flex-wrap md:flex-nowrap gap-4 justify-center items-center mb-20 max-w-6xl mx-auto">
+        <div class="w-full md:w-1/2">
+          <video autoplay muted loop playsinline class="featured-video" src="https://i6oxrkua619shpsu.public.blob.vercel-storage.com/ong-squad.mp4"></video>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="https://i6oxrkua619shpsu.public.blob.vercel-storage.com/ong-squad_resized.jpeg" alt="Ong Squad preview" class="featured-video" />
+        </div>
       </div>
     </section>
 
